@@ -4,6 +4,10 @@ body{
     font-family: " Roboto " , "Arial" , "sans-serif " ;
     letter-spacing: 0.5px;
 }
+*:focus{
+    outline: 2px dotted #FF7500;
+    outline-style: 3px;
+}
 .site-logo{
     transition:opacity 0.4s ease;
 }

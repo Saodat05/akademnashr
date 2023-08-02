@@ -22,6 +22,9 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    border-top: #FF7500 5px solid;
+    padding-top: 16px;
+    padding-bottom:  16px;
 }
 .nav-and-link{
     display: flex;
@@ -32,6 +35,7 @@ body{
 .site-nav{
     list-style: none;
     display: flex;
+    padding: 0;
     
 }
 .site-navigator{
@@ -51,12 +55,17 @@ body{
     opacity:0.6;
 }
 .site-link{
+    display:inline-block;
+    padding:12px 24px 12px 24px;
+    border-radius: 4px;
     font-size: 13px;
+    font-weight: bold;
     line-height:15px;
     color: #fff;
     background-color: #FF7500;
    text-decoration: none;
    transition: opacity 0.4s ease;
+  
     
 
 }
@@ -77,12 +86,15 @@ body{
 }
 .site-hero{
     width: 390px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 
 }
 
 .site-line{
     width: 80px;
     height: 3px;
+    border:none;
     background-color: #FF7500;
 
 } 
@@ -94,7 +106,9 @@ body{
 
 .hero-image{
     width: 510px;
-    height: 510px;}
+    height: 510px;
+    border-radius: 8px;
+}
 .head-feature{
     width: 440px;
     font-size: 72px;
@@ -107,17 +121,23 @@ body{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    padding: 0;
 }
 .feature-list{
     width: 340px;
     height: 245px;
+    padding-top: 210px;
+    padding-bottom: 210px;
+   
 }
 .image-wrapper{
     width: 100px;
     height: 100px;
     background-color:  rgba(255, 117, 0, 0.2);
-    ;
-   
+    border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .feature-heading{
     font-size: 24px;
@@ -138,11 +158,14 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
+       
+        border-radius: 12px;
     }
     .part-image{
         width: 440px;
         height: 440px;
         object-fit:cover ;
+        border-radius: 12px;
     }
     .part-text{
         width: 440px;
@@ -162,11 +185,13 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding:0;
     }
     .footer-ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding: 0;
     }
     .footer-ul a{
         color: #252420;
@@ -182,11 +207,14 @@ body{
    
     .site-footer{
         background-color: #F8F8F8;
+        padding-bottom: 56px;
+        padding-top: 56px;
     }
     .footer-line{
        background-color: rgba(37, 36, 32, 0.5);
         ;
         height: 2px;
+        border:0;
     }
     .links{
         display:flex;

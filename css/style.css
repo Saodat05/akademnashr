@@ -10,13 +10,18 @@ body{
 }
 .site-logo{
     transition:opacity 0.4s ease;
+   
 }
+
 .site-logo:hover{
     opacity:0.8;
 }
 .site-logo:active{
-    opacity:0.6;
-}
+    opacity:0.6;}
+     .site-logo img{
+    display: block;
+    }
+
 .site-header{
     background-color: #fff;
     display: flex;
